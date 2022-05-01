@@ -1,0 +1,50 @@
+p {
+    color: rgb(10, 153, 12);
+    text-align: center;
+}
+h1{
+    color: rgb(23, 100, 10);
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-style: oblique;
+    text-align: center;
+}
+h3{
+    color: #A00;
+    font-style: normal;
+    text-align: center;
+}
+div{
+    text-align: center
+}
+form{
+    text-align: center
+}
+#neeraPic{
+    width: 300px;
+    height: 300px;
+}
+#link1{
+    color: #A00;
+}
+.listview{
+    text-align: center;
+    color: rgb(23, 100, 10);
+}
+#table1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#table1 th, #table1 td{
+    border:1px solid rgba(142, 137, 137, 0.586);
+    padding: 7px;
+}
+#table1 th{
+    color: #fff;
+    background-color: blue;
+}

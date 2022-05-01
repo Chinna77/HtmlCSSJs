@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Neera</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Neera</a>
+        <a href="contact.html">Contact Neera</a>
+    </div>
+    <div id="content" >
+    <h1>Contact me</h1>
+    <form action="success.html" id="sendMessage">
+        <label for="name" >Name</label>
+        <br/>
+        <input id="name" name="yourName" type="text" class="form-control"/>
+        <br/>
+        <label for="email" >Email</label>
+        <br/>
+        <input id="emailid" name="yourName" type="email" />
+        <br/>
+        <label for="query" >Message</label>
+        <br/>
+        <textarea id="query" name="query" ></textarea>
+        <br/>
+        <br/>
+        <button type="submit" onclick="sendMessage()">Send</button>
+    </form>
+    
+    <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
